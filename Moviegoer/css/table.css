@@ -1,0 +1,108 @@
+body { 
+    background-position: left top;
+	background-size: 100%;
+	background-color: #1E1E1E;
+}
+tbody{
+	font-family: Courier New, monospace;
+	font-size: 27 px;
+	color: #696969;
+	background-color: #F1F1E7;
+}
+  p {
+   
+	color: #696969;
+	font-size: 15px;
+	font-family: Courier New, monospace;
+	font-weight: 500;
+	font-variant: normal;
+	font-stretch: semi-condensed;
+	font-style: normal;
+	
+  } 
+  h1 {
+    font-size: 1.9em; 
+  }
+h3 {
+float: left;
+	
+	
+	width: 99%;
+	height: 35px;
+	text-decoration: none;
+	font-size: 27px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Courier New, monospace;
+}
+
+
+td, th { 
+   text-align: left; 
+	text-align: justify;
+   border: 0px solid #ddd; 
+   padding:.5em 5px;
+    font-size: 1.2em;
+}
+  th { 
+   background-color: #F1F1E7;
+    font-weight: normal;
+  } 
+caption {
+    margin: 0; 
+    font-weight: bold; 
+    font-size: 1.3em; 
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ddd; 
+	background-color: #F1F1E7;
+ }
+
+  
+  /* queries */
+@media screen and (max-width: 520px){
+   
+  html:not(.emp-sales) .emp-sales th, 
+  html:not(.emp-sales) .emp-sales td {
+    font-size: 0;
+    padding: 0;
+    content: "";
+    height: 7px;
+  }
+  html:not(.emp-sales) table {
+    position: relative; 
+    overflow: hidden;
+  }
+  
+    
+ html.emp-sales table:before {
+    content: "";
+    display: block;
+    background: #333;
+    padding: 10px;
+  }
+  
+  html.emp-sales table:before{
+    content: "Back";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: .5em 1em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+  }
+   /* around here we could use the HTML class to hide all other content on the page aside from the table */
+  html.emp-sales p, html.emp-sales h1 {
+    display: none; 
+  }
+#mytable{
+	float:left;
+	width:70%;
+	background-color: #F1F1E7;
+	border-radius: 7px;
+}

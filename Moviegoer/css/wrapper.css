@@ -1,0 +1,144 @@
+.wrapper{
+	float:centre;
+	width: 1000px;
+	height: 5300px;
+	position: absolute;
+	background-color: #F1F1E7;
+	border-radius: 7px;
+	margin: 0 auto;
+}
+.sxwrapper{
+	width: 100%;
+	height: 800px;
+	background-color: ;
+}
+.space{
+	float:left;
+	width: 15%;
+	height:100%;
+	position: ;
+	background-color:;
+}
+.sxwrapper{
+	width: 100%;
+	height: 800px;
+	background-color: ;
+}
+body {
+	background-position: left top;
+	background-size: 100%;
+	background-color: #1E1E1E;	
+
+}
+	
+.awardfo{
+	padding-left: 30px;
+	float: left;
+	
+}
+.awtitle{
+	float: left;
+	color: white;
+	
+	width: 99%;
+	height: 35px;
+	text-decoration: none;
+	font-size: 27px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Courier New, monospace;
+}
+
+]
+.info{
+	padding-left: 330px;
+	padding-right: 20px;
+	color: #696969;
+	font-size: 15px;
+	font-family: Courier New, monospace;
+	font-weight: 500;
+	font-variant: normal;
+	font-stretch: semi-condensed;
+	font-style: normal;
+	padding-bottom: 10px;
+}
+
+.mtitle48{
+	float: left;
+	color: #696969;
+	background-size: 100%;
+	width: 99%;
+	height: 35px;
+	text-decoration: none;
+	font-size: 27px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Courier New, monospace;
+}
+#ptitle{
+	float: left;
+	color: #ffffff;
+	background-size: 100%;
+	width: 95%;
+	height: 80px;
+	padding-right: 40px;
+	padding-left: 20px;
+	background-color: #1E1E1E;
+	padding: 29px 16px;
+	text-decoration: none;
+	font-size: 54px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+.navbar {
+      margin-bottom: 40px;
+	  background-color: #ff4d4d;
+	  font-size: 54px;
+	  font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	}
+
+.navibar{
+	padding-top: 20px;
+	background-color: #ff4d4d;
+	background-size: 150%;
+	overflow: auto;
+	float:left;	
+}
+.navibar, .nav{
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	padding-right: 31px;
+	padding-left: 31px;
+	text-decoration: none;
+	font-size: 24px;
+	font-stretch: expanded;
+	font-weight: 500;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+.navibar .nav:hover{
+	color: #1E1E1E;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+
+.set {
+	color: #1E1E1E;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+

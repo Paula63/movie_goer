@@ -1,0 +1,231 @@
+.wrapper{
+	float:centre;
+	width: 1000px;
+	height: 5300px;
+	position: absolute;
+	background-color: #F1F1E7;
+	border-radius: 7px;
+	margin: 0 auto;
+}
+.sxwrapper{
+	width: 100%;
+	height: 800px;
+	background-color: ;
+}
+.space{
+	float:left;
+	width: 15%;
+	height:100%;
+	position: ;
+	background-color:;
+}
+.sxwrapper{
+	width: 100%;
+	height: 800px;
+	background-color: ;
+}
+body {
+	background-position: left top;
+	background-size: 100%;
+	background-color: #1E1E1E;	
+
+}
+	
+.awardfo{
+	padding-left: 30px;
+	float: left;
+	
+}
+.awtitle{
+	float: left;
+	color: white;
+	
+	width: 99%;
+	height: 35px;
+	text-decoration: none;
+	font-size: 27px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Courier New, monospace;
+}
+
+]
+.info{
+	padding-left: 330px;
+	padding-right: 20px;
+	color: #696969;
+	font-size: 15px;
+	font-family: Courier New, monospace;
+	font-weight: 500;
+	font-variant: normal;
+	font-stretch: semi-condensed;
+	font-style: normal;
+	padding-bottom: 10px;
+}
+
+.mtitle48{
+	float: left;
+	color: #696969;
+	background-size: 100%;
+	width: 99%;
+	height: 35px;
+	text-decoration: none;
+	font-size: 27px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Courier New, monospace;
+}
+#ptitle{
+	float: left;
+	color: #ffffff;
+	background-size: 100%;
+	width: 95%;
+	height: 80px;
+	padding-right: 40px;
+	padding-left: 20px;
+	background-color: #1E1E1E;
+	padding: 29px 16px;
+	text-decoration: none;
+	font-size: 54px;
+	font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+.navbar {
+      margin-bottom: 40px;
+	  background-color: #ff4d4d;
+	  font-size: 54px;
+	  font-stretch: expanded;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+	}
+
+.navibar{
+	padding-top: 20px;
+	background-color: #ff4d4d;
+	background-size: 150%;
+	overflow: auto;
+	float:left;	
+}
+.navibar, .nav{
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 14px 16px;
+	padding-right: 31px;
+	padding-left: 31px;
+	text-decoration: none;
+	font-size: 24px;
+	font-stretch: expanded;
+	font-weight: 500;
+	font-style: normal;
+	font-variant: small-caps;
+	font-family: Gill Sans, sans-serif;
+}
+.navibar .nav:hover{
+	color: #1E1E1E;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+
+.set {
+	color: #1E1E1E;
+	background-color: #FFFFFF;
+	border-radius: 25px;
+}
+
+
+body { 
+    font: 62.5%/1.3 normal Helvetica, sans-serif;
+}
+
+table{
+	overflow: hidden;
+  position: relative;
+  position:middle;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+	
+}
+  p {
+    font-size: 1.6em;
+  } 
+  h1 {
+    font-size: 1.9em; 
+  }
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  p, h1 {
+    margin: 2em 0; 
+  }
+td, th { 
+   text-align: left; 
+	text-align: justify;
+   border: 0px solid #ddd; 
+   padding:.5em 5px;
+    font-size: 1.2em;
+}
+  th { 
+    background-color:#f4f4f4;
+    font-weight: normal;
+  } 
+caption {
+    margin: 0; 
+    font-weight: bold; 
+    font-size: 1.3em; 
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ddd; 
+ }
+
+  
+  /* queries */
+@media screen and (max-width: 520px){
+   
+  html:not(.emp-sales) .emp-sales th, 
+  html:not(.emp-sales) .emp-sales td {
+    font-size: 0;
+    padding: 0;
+    content: "";
+    height: 7px;
+  }
+  html:not(.emp-sales) table {
+    position: relative; 
+    overflow: hidden;
+  }
+  
+    
+ html.emp-sales table:before {
+    content: "";
+    display: block;
+    background: #333;
+    padding: 10px;
+  }
+  
+  html.emp-sales table:before{
+    content: "Back";
+    position: absolute;
+    top: 0;
+    left: 15px;
+    padding: .5em 1em;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #fff;
+    background: #000;
+    border: 1px solid #fff;
+  }
+   /* around here we could use the HTML class to hide all other content on the page aside from the table */
+  html.emp-sales p, html.emp-sales h1 {
+    display: none; 
+  }

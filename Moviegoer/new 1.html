@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>jQuery Read More/Less Toggle Example</title>
+	<style>
+	h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.container-fluid {
+  max-width: 768px;
+}
+
+.btn {
+  margin-bottom: 30px;
+}
+
+#showMoreWrapper {
+  display: none;
+  overflow: hidden;
+}
+	</style>
+  </head>
+  <body>
+   <div class="container-fluid">
+  <h1>Physicians</h1>
+  <p>Situated in beautiful Northeast Louisiana, Affinity Health Group is the area's fastest growing medical practice. We invite you to consider this exceptional opportunity.</p>
+  <button class="btn btn-primary" id="showMoreToggle" data-text-swap="Show Less">Show More</button>
+  <div id="showMoreWrapper">
+    <p>For more information, contact Michael at 888-888-8888 or email michael@placeholder.com</p>
+    <h2>Benefits of Affinity:</h2>
+    <ul>
+      <li>Experienced Team</li>
+      <li>Experienced Team</li>
+      <li>Experienced Team</li>
+      <li>Experienced Team</li>
+      <li>Experienced Team</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  $("#showMoreToggle").click(function() {
+  $("#showMoreWrapper").slideToggle(600, "swing");
+  var el = $(this);
+  if (el.text() == el.data("text-swap")) {
+    el.text(el.data("text-original"));
+  } else {
+    el.data("text-original", el.text());
+    el.text(el.data("text-swap"));
+  }
+});
+</script>
+  </body>
+</html>
